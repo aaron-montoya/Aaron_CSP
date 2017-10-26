@@ -12,6 +12,13 @@
 		5D3EBC5C1FA256B200DB3E70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D3EBC5A1FA256B200DB3E70 /* Main.storyboard */; };
 		5D3EBC5E1FA256B200DB3E70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D3EBC5D1FA256B200DB3E70 /* Assets.xcassets */; };
 		5D3EBC611FA256B200DB3E70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D3EBC5F1FA256B200DB3E70 /* LaunchScreen.storyboard */; };
+		5D3EBC6F1FA25B3B00DB3E70 /* CreativityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3EBC6E1FA25B3B00DB3E70 /* CreativityController.swift */; };
+		5D3EBC711FA25B7E00DB3E70 /* AbstractionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3EBC701FA25B7E00DB3E70 /* AbstractionController.swift */; };
+		5D3EBC731FA25B9D00DB3E70 /* DataAndInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3EBC721FA25B9D00DB3E70 /* DataAndInfoController.swift */; };
+		5D3EBC751FA25BBC00DB3E70 /* AlgorithmsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3EBC741FA25BBC00DB3E70 /* AlgorithmsController.swift */; };
+		5D3EBC771FA25BCC00DB3E70 /* ProgrammingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3EBC761FA25BCC00DB3E70 /* ProgrammingController.swift */; };
+		5D3EBC791FA25C0600DB3E70 /* InternetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3EBC781FA25C0600DB3E70 /* InternetController.swift */; };
+		5D3EBC7B1FA25C1B00DB3E70 /* GlobalImpactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3EBC7A1FA25C1B00DB3E70 /* GlobalImpactController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		5D3EBC5D1FA256B200DB3E70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D3EBC601FA256B200DB3E70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D3EBC621FA256B200DB3E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D3EBC6E1FA25B3B00DB3E70 /* CreativityController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CreativityController.swift; path = ../../CreativityController.swift; sourceTree = "<group>"; };
+		5D3EBC701FA25B7E00DB3E70 /* AbstractionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractionController.swift; sourceTree = "<group>"; };
+		5D3EBC721FA25B9D00DB3E70 /* DataAndInfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataAndInfoController.swift; sourceTree = "<group>"; };
+		5D3EBC741FA25BBC00DB3E70 /* AlgorithmsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmsController.swift; sourceTree = "<group>"; };
+		5D3EBC761FA25BCC00DB3E70 /* ProgrammingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammingController.swift; sourceTree = "<group>"; };
+		5D3EBC781FA25C0600DB3E70 /* InternetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetController.swift; sourceTree = "<group>"; };
+		5D3EBC7A1FA25C1B00DB3E70 /* GlobalImpactController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalImpactController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +81,13 @@
 			children = (
 				5D3EBC561FA256B200DB3E70 /* AppDelegate.swift */,
 				5D3EBC581FA256B200DB3E70 /* ViewController.swift */,
+				5D3EBC6E1FA25B3B00DB3E70 /* CreativityController.swift */,
+				5D3EBC701FA25B7E00DB3E70 /* AbstractionController.swift */,
+				5D3EBC721FA25B9D00DB3E70 /* DataAndInfoController.swift */,
+				5D3EBC741FA25BBC00DB3E70 /* AlgorithmsController.swift */,
+				5D3EBC761FA25BCC00DB3E70 /* ProgrammingController.swift */,
+				5D3EBC781FA25C0600DB3E70 /* InternetController.swift */,
+				5D3EBC7A1FA25C1B00DB3E70 /* GlobalImpactController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -168,6 +189,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D3EBC7B1FA25C1B00DB3E70 /* GlobalImpactController.swift in Sources */,
+				5D3EBC791FA25C0600DB3E70 /* InternetController.swift in Sources */,
+				5D3EBC731FA25B9D00DB3E70 /* DataAndInfoController.swift in Sources */,
+				5D3EBC771FA25BCC00DB3E70 /* ProgrammingController.swift in Sources */,
+				5D3EBC751FA25BBC00DB3E70 /* AlgorithmsController.swift in Sources */,
+				5D3EBC711FA25B7E00DB3E70 /* AbstractionController.swift in Sources */,
+				5D3EBC6F1FA25B3B00DB3E70 /* CreativityController.swift in Sources */,
 				5D3EBC591FA256B200DB3E70 /* ViewController.swift in Sources */,
 				5D3EBC571FA256B200DB3E70 /* AppDelegate.swift in Sources */,
 			);

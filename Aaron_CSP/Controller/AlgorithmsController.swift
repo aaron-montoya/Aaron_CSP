@@ -8,11 +8,12 @@
 
 import UIKit
 
-class AlgorithmsController: UIViewController {
+public class AlgorithmsController: UIViewController {
 
     // MARK: Data members
     @IBOutlet weak var algorithmText: UILabel!
-    private func etupAlrithm() -> Void
+    
+    private func setupAlgorithm() -> Void
     {
         var algorithmSteps : [String] = []
         
@@ -57,7 +58,7 @@ class AlgorithmsController: UIViewController {
     
     override public func viewDidLoad() {
         super.viewDidLoad()
-
+        setupAlgorithm()
         // Do any additional setup after loading the view.
     }
 

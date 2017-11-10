@@ -27,6 +27,15 @@
                                     <segue destination="5Td-qa-rnP" kind="show" id="UrQ-Eq-C02"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C73-iH-GUa">
+                                <rect key="frame" x="69" y="381" width="236" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.90196078430000004" green="0.91764705879999997" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="How 'bout dem Global Impacts?"/>
+                                <connections>
+                                    <segue destination="kgK-qR-qfg" kind="show" id="o15-Np-PeF"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -36,10 +45,66 @@
             </objects>
             <point key="canvasLocation" x="117.59999999999999" y="117.39130434782609"/>
         </scene>
+        <!--Global Impact Controller-->
+        <scene sceneID="Mll-Jz-Mkz">
+            <objects>
+                <viewController id="kgK-qR-qfg" customClass="GlobalImpactController" customModule="Aaron_CSP" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aDB-8t-94Y">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="GlobalImpactImage1" translatesAutoresizingMaskIntoConstraints="NO" id="KzT-Tr-eKf">
+                                <rect key="frame" x="16" y="20" width="212" height="246"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LOy-Bc-BfU">
+                                <rect key="frame" x="186" y="431" width="177" height="216"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Plan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jQp-fo-LIY">
+                                <rect key="frame" x="236" y="20" width="127" height="246"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The need to address the problem" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aHj-dM-LXm">
+                                <rect key="frame" x="16" y="431" width="139" height="216"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R3h-O9-tFq">
+                                <rect key="frame" x="22" y="286" width="330" height="130"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Personal">
+                                        <attributes>
+                                            <font key="NSFont" metaFont="system" size="17"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="fox-yk-KFr"/>
+                    </view>
+                    <connections>
+                        <outlet property="nuclearImage" destination="LOy-Bc-BfU" id="6p3-mp-XXO"/>
+                        <outlet property="personalLabel" destination="R3h-O9-tFq" id="zQO-ww-5nK"/>
+                        <outlet property="planLabel" destination="jQp-fo-LIY" id="PKW-Cy-djj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PlM-qb-kh3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="834.33283358320841"/>
+        </scene>
         <!--Algorithms Controller-->
         <scene sceneID="paq-pt-yhc">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Pp5-Ao-Wcy" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="5Td-qa-rnP" customClass="AlgorithmsController" customModule="Aaron_CSP" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jL6-TY-3SB">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -70,11 +135,13 @@
                         <outlet property="algorithmText" destination="nJJ-Eb-BSj" id="1OK-Sg-Wgx"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pp5-Ao-Wcy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="957.60000000000002" y="116.49175412293854"/>
         </scene>
     </scenes>
     <resources>
+        <image name="GlobalImpactImage1" width="631" height="708"/>
         <image name="swiftSample" width="1248" height="1244"/>
     </resources>
 </document>

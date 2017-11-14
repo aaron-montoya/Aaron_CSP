@@ -36,7 +36,7 @@ class GlobalImpactController: UIViewController {
     
     public func loadLabels()
     {
-        planLabel.text = "The Plan for the app"
+        planLabel.text = "The app will have the user take a quiz and then based on their answers it will teach them what they don't know about nuclear energy and nuclear safety."
         personalLabel.text = "Personal connection to the global problem"
     }
     

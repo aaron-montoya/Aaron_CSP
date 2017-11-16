@@ -33,7 +33,7 @@ public class AlgorithmsController: UIViewController {
         
         for step in algorithmSteps
         {
-            let bullet :String = "🦊"
+            let bullet :String = "🇳🇵"
             let formattedStep :String = "\n\(bullet)\(step)"
             let attributedStringStep : NSMutableAttributedString = NSMutableAttributedString(string: formattedStep)
             let paragraphStyle = createParagraphStyle()

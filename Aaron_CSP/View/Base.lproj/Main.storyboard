@@ -132,7 +132,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JHV-hJ-tXe">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Bytecode" translatesAutoresizingMaskIntoConstraints="NO" id="JHV-hJ-tXe">
                                 <rect key="frame" x="16" y="168" width="343" height="183"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -143,7 +143,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n0l-gy-6XM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1206" y="889"/>
+            <point key="canvasLocation" x="1582" y="1610"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Ldn-6A-5Wp">
@@ -167,7 +167,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LOr-RY-PGq">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Binary Code" translatesAutoresizingMaskIntoConstraints="NO" id="LOr-RY-PGq">
                                 <rect key="frame" x="16" y="168" width="343" height="183"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -178,7 +178,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3YE-RP-Adt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1967" y="905"/>
+            <point key="canvasLocation" x="2327" y="1610"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="NTJ-GZ-qYF">
@@ -202,7 +202,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Psw-g1-tf0">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="And Gate Code" translatesAutoresizingMaskIntoConstraints="NO" id="Psw-g1-tf0">
                                 <rect key="frame" x="16" y="168" width="343" height="183"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -213,7 +213,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eyM-6u-ixV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2690" y="916"/>
+            <point key="canvasLocation" x="3068" y="1610"/>
         </scene>
         <!--Algorithms Controller-->
         <scene sceneID="paq-pt-yhc">
@@ -282,7 +282,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hjm-06-D9q">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Block Code" translatesAutoresizingMaskIntoConstraints="NO" id="hjm-06-D9q">
                                 <rect key="frame" x="16" y="168" width="343" height="183"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -293,7 +293,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u2d-FM-d8W" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1832.8" y="176.76161919040482"/>
+            <point key="canvasLocation" x="118" y="1610"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="hGs-kj-nPU">
@@ -317,7 +317,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qSy-9L-1Ox">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Java Code" translatesAutoresizingMaskIntoConstraints="NO" id="qSy-9L-1Ox">
                                 <rect key="frame" x="16" y="168" width="343" height="183"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -328,11 +328,16 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ufy-Iu-Zbh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2607" y="202"/>
+            <point key="canvasLocation" x="846" y="1610"/>
         </scene>
     </scenes>
     <resources>
+        <image name="And Gate Code" width="668" height="460"/>
+        <image name="Binary Code" width="580" height="522"/>
+        <image name="Block Code" width="1456" height="696"/>
+        <image name="Bytecode" width="825" height="431"/>
         <image name="GlobalImpactImage1" width="631" height="708"/>
+        <image name="Java Code" width="381" height="465"/>
         <image name="swiftSample" width="1248" height="1244"/>
     </resources>
     <inferredMetricsTieBreakers>

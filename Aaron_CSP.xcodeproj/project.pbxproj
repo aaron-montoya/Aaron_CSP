@@ -17,7 +17,7 @@
 		5D3EBC731FA25B9D00DB3E70 /* DataAndInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3EBC721FA25B9D00DB3E70 /* DataAndInfoController.swift */; };
 		5D3EBC751FA25BBC00DB3E70 /* AlgorithmsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3EBC741FA25BBC00DB3E70 /* AlgorithmsController.swift */; };
 		5D3EBC771FA25BCC00DB3E70 /* ProgrammingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3EBC761FA25BCC00DB3E70 /* ProgrammingController.swift */; };
-		5D3EBC791FA25C0600DB3E70 /* InternetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3EBC781FA25C0600DB3E70 /* InternetController.swift */; };
+		5D3EBC791FA25C0600DB3E70 /* InternetMasterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3EBC781FA25C0600DB3E70 /* InternetMasterController.swift */; };
 		5D3EBC7B1FA25C1B00DB3E70 /* GlobalImpactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3EBC7A1FA25C1B00DB3E70 /* GlobalImpactController.swift */; };
 		5D7A76231FC35FCB00EE2068 /* Collectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7A76221FC35FCB00EE2068 /* Collectable.swift */; };
 		5D7A76251FC3604800EE2068 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7A76241FC3604800EE2068 /* Pokemon.swift */; };
@@ -36,7 +36,7 @@
 		5D3EBC721FA25B9D00DB3E70 /* DataAndInfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataAndInfoController.swift; sourceTree = "<group>"; };
 		5D3EBC741FA25BBC00DB3E70 /* AlgorithmsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmsController.swift; sourceTree = "<group>"; };
 		5D3EBC761FA25BCC00DB3E70 /* ProgrammingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammingController.swift; sourceTree = "<group>"; };
-		5D3EBC781FA25C0600DB3E70 /* InternetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetController.swift; sourceTree = "<group>"; };
+		5D3EBC781FA25C0600DB3E70 /* InternetMasterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetMasterController.swift; sourceTree = "<group>"; };
 		5D3EBC7A1FA25C1B00DB3E70 /* GlobalImpactController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalImpactController.swift; sourceTree = "<group>"; };
 		5D7A76221FC35FCB00EE2068 /* Collectable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collectable.swift; sourceTree = "<group>"; };
 		5D7A76241FC3604800EE2068 /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
@@ -90,7 +90,7 @@
 				5D3EBC721FA25B9D00DB3E70 /* DataAndInfoController.swift */,
 				5D3EBC741FA25BBC00DB3E70 /* AlgorithmsController.swift */,
 				5D3EBC761FA25BCC00DB3E70 /* ProgrammingController.swift */,
-				5D3EBC781FA25C0600DB3E70 /* InternetController.swift */,
+				5D3EBC781FA25C0600DB3E70 /* InternetMasterController.swift */,
 				5D3EBC7A1FA25C1B00DB3E70 /* GlobalImpactController.swift */,
 			);
 			path = Controller;
@@ -198,7 +198,7 @@
 				5D7A76251FC3604800EE2068 /* Pokemon.swift in Sources */,
 				5D7A76231FC35FCB00EE2068 /* Collectable.swift in Sources */,
 				5D3EBC7B1FA25C1B00DB3E70 /* GlobalImpactController.swift in Sources */,
-				5D3EBC791FA25C0600DB3E70 /* InternetController.swift in Sources */,
+				5D3EBC791FA25C0600DB3E70 /* InternetMasterController.swift in Sources */,
 				5D3EBC731FA25B9D00DB3E70 /* DataAndInfoController.swift in Sources */,
 				5D3EBC771FA25BCC00DB3E70 /* ProgrammingController.swift in Sources */,
 				5D3EBC751FA25BBC00DB3E70 /* AlgorithmsController.swift in Sources */,

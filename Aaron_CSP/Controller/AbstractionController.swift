@@ -27,7 +27,7 @@ class AbstractionController: UIPageViewController, UIPageViewControllerDataSourc
     {
         return UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "\(abstractionLevel)ViewController")
     }
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         dataSource = self
@@ -35,17 +35,17 @@ class AbstractionController: UIPageViewController, UIPageViewControllerDataSourc
         if let firstViewController = orderedAbstractionViews.first
         {
             setViewControllers([firstViewController],
-                                direction: .forward,
-                                animated: true,
-                                completion: nil)
+                               direction: .forward,
+                               animated: true,
+                               completion: nil)
         }
     }
-
+    
     //MARK:- Required Protocol methods for UIPageViewControllerDatacource
     public func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController?
     {
         guard let viewControllerIndex = orderedAbstractionViews.index(of: viewController)
-        else
+            else
         {
             return nil
         }
@@ -53,13 +53,13 @@ class AbstractionController: UIPageViewController, UIPageViewControllerDataSourc
         let previousIndex = viewControllerIndex - 1
         
         guard previousIndex >= 0
-        else
+            else
         {
             return orderedAbstractionViews.last
         }
         
         guard orderedAbstractionViews.count > previousIndex
-        else
+            else
         {
             return nil
         }
@@ -69,12 +69,63 @@ class AbstractionController: UIPageViewController, UIPageViewControllerDataSourc
     
     public func pageViewController(_ pageViewController: UIPageViewController, viewControllerAfter viewController: UIViewController) -> UIViewController?
     {
+        guard let viewControllerIndex = orderedAbstractionViews.index(of: viewController)
+            else
+        {
+            return nil
+        }
         
+        let nextIndex = viewControllerIndex + 1
+        
+        guard nextIndex >= 0
+            else
+        {
+            return nil
+        }
+        
+        guard nextIndex < orderedAbstractionViews.count
+            else
+        {
+            return orderedAbstractionViews.first
+        }
+        
+        return orderedAbstractionViews[nextIndex]
     }
     
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    //MARK:- Support for dots in the UIPageViewController
+    
+    public func presentationCount(for pageViewContrle: UIPageViewController) -> Int
+    {
+        return orderedAbstractionViews.count
     }
-
+    
+    public func presentationIndex(for pageViewController: UIPageViewController) -> Int
+    {
+        guard let firstViewController = viewControllers?.first, let firstViewControllerIndex = orderedAbstractionViews.index(of: firstViewController)
+            else
+        {
+            return 0
+        }
+        
+        return firstViewControllerIndex
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

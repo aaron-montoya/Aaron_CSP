@@ -6,9 +6,13 @@
 //  Copyright © 2017 CTEC. All rights reserved.
 //
 
-import UIKit
+/*import UIKit
 public class Pokemon : Collectable
 {
+    public func collect() {
+        <#code#>
+    }
+    
     private var PokemonColour:UIColor
     //MARK: Collectable data member
     public var collected : Bool
@@ -39,3 +43,4 @@ public class Pokemon : Collectable
         return collected
     }
 }
+*/

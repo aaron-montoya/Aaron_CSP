@@ -232,6 +232,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="gJY-Wz-Vm7"/>
                     </view>
+                    <connections>
+                        <outlet property="textView" destination="yvv-uf-ATI" id="Mva-yC-DT2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RaP-DM-imf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -19,6 +19,7 @@
 		5D3EBC771FA25BCC00DB3E70 /* ProgrammingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3EBC761FA25BCC00DB3E70 /* ProgrammingController.swift */; };
 		5D3EBC791FA25C0600DB3E70 /* InternetMasterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3EBC781FA25C0600DB3E70 /* InternetMasterController.swift */; };
 		5D3EBC7B1FA25C1B00DB3E70 /* GlobalImpactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3EBC7A1FA25C1B00DB3E70 /* GlobalImpactController.swift */; };
+		5D73FBEE1FD72A19005B74BD /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D73FBED1FD72A19005B74BD /* DrawingView.swift */; };
 		5D7A6D871FCF39BA004F070A /* InternetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7A6D861FCF39BA004F070A /* InternetDetailViewController.swift */; };
 		5D7A6D8A1FCF3B97004F070A /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D7A6D891FCF3B97004F070A /* WebKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		5D7A76231FC35FCB00EE2068 /* Collectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7A76221FC35FCB00EE2068 /* Collectable.swift */; };
@@ -40,6 +41,7 @@
 		5D3EBC761FA25BCC00DB3E70 /* ProgrammingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammingController.swift; sourceTree = "<group>"; };
 		5D3EBC781FA25C0600DB3E70 /* InternetMasterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetMasterController.swift; sourceTree = "<group>"; };
 		5D3EBC7A1FA25C1B00DB3E70 /* GlobalImpactController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalImpactController.swift; sourceTree = "<group>"; };
+		5D73FBED1FD72A19005B74BD /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
 		5D7A6D861FCF39BA004F070A /* InternetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDetailViewController.swift; sourceTree = "<group>"; };
 		5D7A6D891FCF3B97004F070A /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		5D7A76221FC35FCB00EE2068 /* Collectable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collectable.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 			children = (
 				5D3EBC5A1FA256B200DB3E70 /* Main.storyboard */,
 				5D3EBC5F1FA256B200DB3E70 /* LaunchScreen.storyboard */,
+				5D73FBED1FD72A19005B74BD /* DrawingView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 				5D3EBC7B1FA25C1B00DB3E70 /* GlobalImpactController.swift in Sources */,
 				5D3EBC791FA25C0600DB3E70 /* InternetMasterController.swift in Sources */,
 				5D7A6D871FCF39BA004F070A /* InternetDetailViewController.swift in Sources */,
+				5D73FBEE1FD72A19005B74BD /* DrawingView.swift in Sources */,
 				5D3EBC731FA25B9D00DB3E70 /* DataAndInfoController.swift in Sources */,
 				5D3EBC771FA25BCC00DB3E70 /* ProgrammingController.swift in Sources */,
 				5D3EBC751FA25BBC00DB3E70 /* AlgorithmsController.swift in Sources */,

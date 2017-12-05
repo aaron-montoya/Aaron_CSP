@@ -234,13 +234,14 @@
                     </view>
                     <connections>
                         <outlet property="textView" destination="yvv-uf-ATI" id="Mva-yC-DT2"/>
+                        <outlet property="webViewer" destination="tWj-sI-ygZ" id="UWa-1F-Sbk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RaP-DM-imf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2373.5999999999999" y="703.89805097451278"/>
+            <point key="canvasLocation" x="2798" y="704"/>
         </scene>
-        <!--Root View Controller-->
+        <!--Internet Samples-->
         <scene sceneID="jyz-Da-gXJ">
             <objects>
                 <tableViewController clearsSelectionOnViewWillAppear="NO" id="QkT-fE-sWQ" customClass="InternetMasterController" customModule="Aaron_CSP" customModuleProvider="target" sceneMemberID="viewController">
@@ -256,6 +257,9 @@
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="1Z1-fK-Idf" kind="showDetail" identifier="showDetail" id="Qel-ry-czr"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -263,7 +267,7 @@
                             <outlet property="delegate" destination="QkT-fE-sWQ" id="pnn-Kc-U8j"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="JOg-50-mK7"/>
+                    <navigationItem key="navigationItem" title="Internet Samples" id="JOg-50-mK7"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="egI-1M-ki0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -459,6 +463,7 @@
         <image name="swiftSample" width="1248" height="1244"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="Qel-ry-czr"/>
         <segue reference="kLS-u1-X5h"/>
     </inferredMetricsTieBreakers>
 </document>

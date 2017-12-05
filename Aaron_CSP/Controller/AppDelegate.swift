@@ -9,7 +9,7 @@
 import UIKit
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDelegate {
 
     var window: UIWindow?
 
@@ -51,13 +51,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
     
-    //SplitView Delegate
+    //MARK: - SplitView Delegate
     
     func splitViewControl(_splitViewController: UISplitViewController,
                                                                       collapseSecondary secondaryViewController : UIViewController,
                                                                       onto primaryViewController: UIViewController) -> Bool
     {
-        gard let secondaryAsNavController = secondaryViewController as? UINavigationController else { return false }
+        guard let secondaryAsNavController = secondaryViewController as? UINavigationController else { return false }
+        guard let topAsDetailController = secondaryAsNavController.topViewController as? InternetDetailViewController else { return false }
+        if topAsDetailController.detailAddress == nil
+        {
+            //Return true to indicate that we have handled the collapse by doing nothing; t secondary conroller will be discarded
+            return true
+        }
+        return false
     }
 
 

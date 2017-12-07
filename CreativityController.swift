@@ -144,20 +144,3 @@ class CreativityController: UICollectionViewController, UICollectionViewDelegate
         return false
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

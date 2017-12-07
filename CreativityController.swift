@@ -17,21 +17,50 @@ class CreativityController: UICollectionViewController, UICollectionViewDelegate
     private lazy var artSelection : [UIImage?] =
     {
         return [
-            UIImage(named: "cute"),
-            UIImage(named: "squishBall"),
+            UIImage(named: "pineapple"),
+            UIImage(named: "squishball"),
             UIImage(named: "tree"),
-            UIImage(named: "squishBall"),
-            UIImage(named: "squishBall"),
-            UIImage(named: "squishBall"),
-            UIImage(named: "squishBall"),
-            UIImage(named: "squishBall"),
-            UIImage(named: "squishBall"),
-            UIImage(named: "squishBall"),
-            UIImage(named: "squishBall")
+            UIImage(named: "pineapple"),
+            UIImage(named: "tree"),
+            UIImage(named: "squishball"),
+            UIImage(named: "pineapple"),
+            UIImage(named: "pineapple"),
+            UIImage(named: "tree"),
+            UIImage(named: "squishball"),
+            UIImage(named: "pineapple")
         ]
     }()
     
     var largePhotoIndexPath: IndexPath?
+    {
+        didSet
+        {
+            var indexPaths = [IndexPath]()
+            if let largePhotoIndexPath = largePhotoIndexPath
+            {
+                indexPaths.append(largePhotoIndexPath)
+            }
+            if let oldValue = oldValue
+            {
+                indexPaths.append(oldValue)
+            }
+            
+            collectionView?.performBatchUpdates(
+                {
+                    self.collectionView?.reloadItems(at: indexPaths)
+                })
+            {
+                completed in
+                
+                if let largePhotoIndexPath = self.largePhotoIndexPath
+                {
+                    self.collectionView?.scrollToItem(at: largePhotoIndexPath,
+                                                      at: .centeredVertically,
+                                                      animated: true)
+                }
+            }
+        }
+    }
     
     
     override func viewDidLoad() {

@@ -6,19 +6,23 @@
 //  Copyright © 2017 CTEC. All rights reserved.
 //
 
+import SpriteKit
 import UIKit
 
 class ProgrammingController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        let gameScene = StartScene(size: view.bounds.size)
+        let gameView = view as! SKView
+        
+        gameView.showsFPS = true
+        gameView.showsNodeCount = true
+        gameView.ignoresSiblingOrder = true
+        
+        gameScene.scaleMode = .resizeFill
+        gameView.presentScene(gameScene)
+        
     }
 
 }

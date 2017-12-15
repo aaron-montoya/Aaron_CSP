@@ -42,7 +42,7 @@ public class Player: SKSpriteNode
         self.physicsBody?.contactTestBitMask = CollisionCategories.InvaderBullet | CollisionCategories.Invader
         self.physicsBody?.collisionBitMask = CollisionCategories.EdgeBody
         self.physicsBody?.allowsRotation = false
-        
+        animate()
     }
     
     required public init?(coder aDecoder: NSCoder)

@@ -9,7 +9,7 @@
 import UIKit
 import SpriteKit
 
-class Death_Scene: SKScene {
+class DeathScene: SKScene {
     
     override public func didMove(to view: SKView) -> Void
     {

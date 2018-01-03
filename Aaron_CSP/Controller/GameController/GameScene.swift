@@ -237,7 +237,7 @@ public class GameScene: SKScene, SKPhysicsContactDelegate
             }
             
             let theInvader = firstBody.node as! Invader
-            let newInvaderRow = theInvader.invaderRow -
+            let newInvaderRow = theInvader.invaderRow - 1
             let newInvaderCol = theInvader.invaderCol
             if(newInvaderRow >= 1)
             {

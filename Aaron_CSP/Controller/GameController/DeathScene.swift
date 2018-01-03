@@ -9,13 +9,13 @@
 import UIKit
 import SpriteKit
 
-class DeathScene: SKScene {
+public class DeathScene: SKScene {
     
     override public func didMove(to view: SKView) -> Void
     {
         self.backgroundColor = SKColor.green
         
-        let gameOver = SKLabelNode(text: "You have died")
+        let gameOver = SKLabelNode(text: "Your dead")
         gameOver.name = "game over"
         gameOver.fontSize = 65
         gameOver.fontColor = SKColor.red

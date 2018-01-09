@@ -10,6 +10,10 @@ import UIKit
 
 class BucketItemCell: UITableViewCell {
 
+    @IBOutlet weak var bucketItemText : UILabel!
+    @IBOutlet weak var bucketItemSymbol : UILabel!
+    @IBOutlet weak var bucketItemSignature : UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

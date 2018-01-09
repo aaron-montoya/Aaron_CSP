@@ -34,8 +34,25 @@ class BucketItemCell: UITableViewCell {
         
         let ascii = emojiStart + Int(arc4random_uniform(UInt32(emojiRange)))
         let emoji = UnicodeScalar(ascii)?.description
-        return emoji
+        return emoji!
     }
+    
+    private func updateCellView()
+    {
+        if (bucketItem != nil)
+        {
+            bucketItemSignature.text = bucketItem.itemAuthor
+            bucketItemText.text = bucketItem.itemContents
+        }
+        else
+        {
+            bucketItemSignature.text = "author goes here"
+            bucketItemText.text = "text goes here"
+        }
+        
+        bucketItemSymbol.text = randomEmoji()
+    }
+
     
     override func awakeFromNib() {
         super.awakeFromNib()

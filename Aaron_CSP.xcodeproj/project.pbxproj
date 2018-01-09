@@ -15,7 +15,7 @@
 		5D3EBC611FA256B200DB3E70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D3EBC5F1FA256B200DB3E70 /* LaunchScreen.storyboard */; };
 		5D3EBC6F1FA25B3B00DB3E70 /* CreativityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3EBC6E1FA25B3B00DB3E70 /* CreativityController.swift */; };
 		5D3EBC711FA25B7E00DB3E70 /* AbstractionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3EBC701FA25B7E00DB3E70 /* AbstractionController.swift */; };
-		5D3EBC731FA25B9D00DB3E70 /* DataAndInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3EBC721FA25B9D00DB3E70 /* DataAndInfoController.swift */; };
+		5D3EBC731FA25B9D00DB3E70 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3EBC721FA25B9D00DB3E70 /* DataViewController.swift */; };
 		5D3EBC751FA25BBC00DB3E70 /* AlgorithmsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3EBC741FA25BBC00DB3E70 /* AlgorithmsController.swift */; };
 		5D3EBC771FA25BCC00DB3E70 /* ProgrammingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3EBC761FA25BCC00DB3E70 /* ProgrammingController.swift */; };
 		5D3EBC791FA25C0600DB3E70 /* InternetMasterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3EBC781FA25C0600DB3E70 /* InternetMasterController.swift */; };
@@ -26,6 +26,9 @@
 		5D7A6D8A1FCF3B97004F070A /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D7A6D891FCF3B97004F070A /* WebKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		5D7A76231FC35FCB00EE2068 /* Collectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7A76221FC35FCB00EE2068 /* Collectable.swift */; };
 		5D7A76251FC3604800EE2068 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7A76241FC3604800EE2068 /* Pokemon.swift */; };
+		5DABDB1020054597000F9C1C /* BucketItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DABDB0F20054597000F9C1C /* BucketItem.swift */; };
+		5DABDB122005463D000F9C1C /* bucket.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5DABDB112005463D000F9C1C /* bucket.csv */; };
+		5DABDB1420054876000F9C1C /* BucketItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DABDB1320054876000F9C1C /* BucketItemCell.swift */; };
 		5DF3EF821FE1AB0B00A12B3C /* StartScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF3EF7F1FE1AB0B00A12B3C /* StartScene.swift */; };
 		5DF3EF831FE1AB0B00A12B3C /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF3EF801FE1AB0B00A12B3C /* GameScene.swift */; };
 		5DF3EF841FE1AB0B00A12B3C /* LevelCompleteScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF3EF811FE1AB0B00A12B3C /* LevelCompleteScene.swift */; };
@@ -54,7 +57,7 @@
 		5D3EBC621FA256B200DB3E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D3EBC6E1FA25B3B00DB3E70 /* CreativityController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CreativityController.swift; path = ../../CreativityController.swift; sourceTree = "<group>"; };
 		5D3EBC701FA25B7E00DB3E70 /* AbstractionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractionController.swift; sourceTree = "<group>"; };
-		5D3EBC721FA25B9D00DB3E70 /* DataAndInfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataAndInfoController.swift; sourceTree = "<group>"; };
+		5D3EBC721FA25B9D00DB3E70 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
 		5D3EBC741FA25BBC00DB3E70 /* AlgorithmsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmsController.swift; sourceTree = "<group>"; };
 		5D3EBC761FA25BCC00DB3E70 /* ProgrammingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammingController.swift; sourceTree = "<group>"; };
 		5D3EBC781FA25C0600DB3E70 /* InternetMasterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetMasterController.swift; sourceTree = "<group>"; };
@@ -65,6 +68,9 @@
 		5D7A6D891FCF3B97004F070A /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		5D7A76221FC35FCB00EE2068 /* Collectable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collectable.swift; sourceTree = "<group>"; };
 		5D7A76241FC3604800EE2068 /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		5DABDB0F20054597000F9C1C /* BucketItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketItem.swift; sourceTree = "<group>"; };
+		5DABDB112005463D000F9C1C /* bucket.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = bucket.csv; path = ../../../../Desktop/bucket.csv; sourceTree = "<group>"; };
+		5DABDB1320054876000F9C1C /* BucketItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketItemCell.swift; sourceTree = "<group>"; };
 		5DF3EF7F1FE1AB0B00A12B3C /* StartScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartScene.swift; sourceTree = "<group>"; };
 		5DF3EF801FE1AB0B00A12B3C /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		5DF3EF811FE1AB0B00A12B3C /* LevelCompleteScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelCompleteScene.swift; sourceTree = "<group>"; };
@@ -131,7 +137,7 @@
 				5D3EBC6E1FA25B3B00DB3E70 /* CreativityController.swift */,
 				5D7035171FD9D3730096AF05 /* ArtCell.swift */,
 				5D3EBC701FA25B7E00DB3E70 /* AbstractionController.swift */,
-				5D3EBC721FA25B9D00DB3E70 /* DataAndInfoController.swift */,
+				5DABDB0C20054487000F9C1C /* DataView */,
 				5D3EBC741FA25BBC00DB3E70 /* AlgorithmsController.swift */,
 				5D3EBC761FA25BCC00DB3E70 /* ProgrammingController.swift */,
 				5D3EBC781FA25C0600DB3E70 /* InternetMasterController.swift */,
@@ -158,6 +164,7 @@
 				5DF3EF9F1FE1AFDD00A12B3C /* Game Models */,
 				5D7A76221FC35FCB00EE2068 /* Collectable.swift */,
 				5D7A76241FC3604800EE2068 /* Pokemon.swift */,
+				5DABDB0F20054597000F9C1C /* BucketItem.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -165,6 +172,7 @@
 		5D3EBC6B1FA257A400DB3E70 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5DABDB112005463D000F9C1C /* bucket.csv */,
 				5DF3EF911FE1AECB00A12B3C /* Utilities.swift */,
 				5DF3EF901FE1ADF100A12B3C /* Sounds */,
 				5D3EBC621FA256B200DB3E70 /* Info.plist */,
@@ -179,6 +187,15 @@
 				5D7A6D891FCF3B97004F070A /* WebKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5DABDB0C20054487000F9C1C /* DataView */ = {
+			isa = PBXGroup;
+			children = (
+				5D3EBC721FA25B9D00DB3E70 /* DataViewController.swift */,
+				5DABDB1320054876000F9C1C /* BucketItemCell.swift */,
+			);
+			path = DataView;
 			sourceTree = "<group>";
 		};
 		5DF3EF851FE1AC8F00A12B3C /* GameController */ = {
@@ -277,6 +294,7 @@
 			files = (
 				5D3EBC611FA256B200DB3E70 /* LaunchScreen.storyboard in Resources */,
 				5D3EBC5E1FA256B200DB3E70 /* Assets.xcassets in Resources */,
+				5DABDB122005463D000F9C1C /* bucket.csv in Resources */,
 				5DF3EF8F1FE1ADA700A12B3C /* powerup sound.mp3 in Resources */,
 				5DF3EF8B1FE1ADA700A12B3C /* extra sound.mp3 in Resources */,
 				5DF3EF8C1FE1ADA700A12B3C /* invader sound.mp3 in Resources */,
@@ -298,6 +316,7 @@
 				5DF3EF9B1FE1AFC900A12B3C /* Projectile.swift in Sources */,
 				5DF3EF9D1FE1AFC900A12B3C /* InvaderLaser.swift in Sources */,
 				5D7A76251FC3604800EE2068 /* Pokemon.swift in Sources */,
+				5DABDB1020054597000F9C1C /* BucketItem.swift in Sources */,
 				5D7035181FD9D3730096AF05 /* ArtCell.swift in Sources */,
 				5DF3EF831FE1AB0B00A12B3C /* GameScene.swift in Sources */,
 				5DF3EF841FE1AB0B00A12B3C /* LevelCompleteScene.swift in Sources */,
@@ -307,8 +326,9 @@
 				5D3EBC791FA25C0600DB3E70 /* InternetMasterController.swift in Sources */,
 				5D7A6D871FCF39BA004F070A /* InternetDetailViewController.swift in Sources */,
 				5DF3EF9E1FE1AFC900A12B3C /* PlayerLaser.swift in Sources */,
+				5DABDB1420054876000F9C1C /* BucketItemCell.swift in Sources */,
 				5D73FBEE1FD72A19005B74BD /* DrawingView.swift in Sources */,
-				5D3EBC731FA25B9D00DB3E70 /* DataAndInfoController.swift in Sources */,
+				5D3EBC731FA25B9D00DB3E70 /* DataViewController.swift in Sources */,
 				5D3EBC771FA25BCC00DB3E70 /* ProgrammingController.swift in Sources */,
 				5D3EBC751FA25BBC00DB3E70 /* AlgorithmsController.swift in Sources */,
 				5D3EBC711FA25B7E00DB3E70 /* AbstractionController.swift in Sources */,
